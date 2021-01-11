@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "订单",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "order-calendar": "/pages/rili/rili",
+    "order-head": "/assembly/Order/Title",
+    "order-nav": "/assembly/Order/OrderList",
+    "change-time": "/components/index/popup/changeTime"
+  }
+}

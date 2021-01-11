@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "titleNView": false,
+  "scrollIndicator": "none",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {}
+}

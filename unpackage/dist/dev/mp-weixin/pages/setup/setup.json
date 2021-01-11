@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "titleNView": false,
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-switch": "/uview-ui/components/u-switch/u-switch",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

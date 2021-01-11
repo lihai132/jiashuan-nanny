@@ -1,0 +1,1 @@
+<web-view id="myMap" width="100%" height="100%" src="../../html/map.html" data-event-opts="{{[['message',[['getMes',['$event']]]]]}}" bindmessage="__e" class="data-v-db675620"></web-view>

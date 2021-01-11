@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.record.data-v-3b6eb0a6 {
+  height: 100%;
+  background: #F6F6F6;
+}
+.record .record-content.data-v-3b6eb0a6 {
+  padding-bottom: 80rpx;
+  background: #F6F6F6;
+}
+.record .record-content .record-content-item.data-v-3b6eb0a6 {
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  background: #FFFFFF;
+  border-radius: 12rpx;
+  padding-top: 30rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  margin-right: 30rpx;
+  padding-bottom: 12rpx;
+}
+.record .record-content .record-content-item .record-item-title.data-v-3b6eb0a6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.record .record-content .record-content-item .record-item-title .record-item-title-left.data-v-3b6eb0a6 {
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}
+.record .record-content .record-content-item .record-item-title .record-item-title-left .item-title-left-t1.data-v-3b6eb0a6 {
+  margin-right: 20rpx;
+}
+.record .record-content .record-content-item .record-item-title .record-item-title-right.data-v-3b6eb0a6 {
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFB866;
+}
+.record .record-content .record-content-item .record-item-title .examine.data-v-3b6eb0a6 {
+  color: #FFB866;
+}
+.record .record-content .record-content-item .record-item-title .Failed.data-v-3b6eb0a6 {
+  color: #FF2020;
+}
+.record .record-content .record-content-item .record-item-title .cancel.data-v-3b6eb0a6 {
+  clear: #999999;
+}
+.record .record-content .record-content-item .record-item-title .adopt.data-v-3b6eb0a6 {
+  color: #42C485;
+}
+.record .record-content .record-content-item .record-item-startTime.data-v-3b6eb0a6,
+.record .record-content .record-content-item .record-item-endTime.data-v-3b6eb0a6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 20rpx;
+}
+.record .record-content .record-content-item .record-item-startTime .item-Time-t1.data-v-3b6eb0a6,
+.record .record-content .record-content-item .record-item-endTime .item-Time-t1.data-v-3b6eb0a6 {
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #202020;
+  line-height: 44rpx;
+  margin-right: 20rpx;
+}
+.record .record-content .record-content-item .record-item-line.data-v-3b6eb0a6 {
+  margin-top: 16rpx;
+  height: 2rpx;
+  background: #F6F6F6;
+}
+.record .record-content .record-content-item .record-item-foot.data-v-3b6eb0a6 {
+  margin-top: 36rpx;
+  height: 70rpx;
+  margin-bottom: 32rpx;
+}
+.record .record-content .record-content-item .record-item-foot .record-item-foot-but.data-v-3b6eb0a6 {
+  width: 192rpx;
+  height: 70rpx;
+  border-radius: 35rpx;
+  border: 2rpx solid #DDDDDD;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #202020;
+  line-height: 70rpx;
+  text-align: center;
+  background-color: #fff;
+  float: right;
+}
+.no-data.data-v-3b6eb0a6 {
+  margin-top: 252rpx;
+}
+.no-data .no-data-img image.data-v-3b6eb0a6 {
+  width: 360rpx;
+  height: 208rpx;
+}
+.no-data .no-data-text.data-v-3b6eb0a6 {
+  margin-top: 44rpx;
+  color: #666;
+  font-size: 28rpx;
+}
+

@@ -1,0 +1,226 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"softinputNavBar": "none",
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "接单",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+
+			}
+		},
+		{
+			"path": "pages/steps/step1",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"softinputNavBar": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/steps/step2",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"softinputNavBar": "none",
+					"titleNView": {
+						"backgroundColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"titleNView": false,
+				"scrollIndicator": "none", //当前页面不显示滚动条/ 隐藏顶部导航栏
+				"navigationBarTextStyle": "black" //状态栏字体颜色
+
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/steps/step3",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"softinputNavBar": "none",
+					"titleNView": {
+						"backgroundColor": "#FFFFFF"
+					}
+				}
+
+			}
+		},
+
+
+
+		{
+			"path": "pages/rili/rili",
+			"style": {
+				"scrollIndicator": "none", //当前页面不显示滚动条// 隐藏顶部导航栏
+				"app-plus": {
+					"softinputNavBar": "none",
+					"titleNView": {
+						"backgroundColor": "#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/OrderDetails/OrderDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myBill/myBill",
+			"style": {
+				"navigationBarTitleText": "我的工资单",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/leave/leave",
+			"style": {
+				"navigationBarTitleText": "请假",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"scrollIndicator": "none", //app端隐藏滚动条
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "请假记录",
+							// "fontSrc": "/static/iconfont.ttf",
+							"fontSize": "14px",
+							"type":"none",
+							"width":"100px",
+							"color":"#FF8666"
+			
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"titleNView": false,
+				"scrollIndicator": "none", //当前页面不显示滚动条// 隐藏顶部导航栏
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/setup/setup",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"titleNView": false,
+				"scrollIndicator": "none" //当前页面不显示滚动条// 隐藏顶部导航栏;
+
+			}
+		},
+		{
+			"path": "pages/examine/examine",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"titleNView": false,
+				"scrollIndicator": "none", //当前页面不显示滚动条// 隐藏顶部导航栏;
+				"navigationBarTextStyle": "black"
+
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "选择地址",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+				// "app-plus": {
+				// 	"scrollIndicator": "none", //app端隐藏滚动条
+				// 	"bounce": "none",
+				// 	"titleNView": {
+				// 		"buttons": [{
+				// 			"text": "\ue684",
+				// 			"fontSrc": "/static/iconfont.ttf",
+				// 			"fontSize": "22px",
+				// 			"type":"none",
+				// 			"width":"62px"
+
+				// 		}]
+				// 	}
+				// }
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FF8666",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "接单",
+				"iconPath": "./static/tabbar/Receivingorders.png",
+				"selectedIconPath": "static/tabbar/Receivingorders-color.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "static/tabbar/order.png",
+				"selectedIconPath": "static/tabbar/order-color.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/main.png",
+				"selectedIconPath": "static/tabbar/main-color.png"
+			}
+		]
+	},
+	"globalStyle": {
+
+	}
+}

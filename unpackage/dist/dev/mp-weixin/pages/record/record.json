@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "titleNView": false,
+  "scrollIndicator": "none",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "change-time": "/components/index/popup/changeTime"
+  }
+}

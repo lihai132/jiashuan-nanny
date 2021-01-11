@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/steps/step1",
+    "pages/steps/step2",
+    "pages/main/main",
+    "pages/order/order",
+    "pages/steps/step3",
+    "pages/rili/rili",
+    "pages/OrderDetails/OrderDetails",
+    "pages/myBill/myBill",
+    "pages/leave/leave",
+    "pages/record/record",
+    "pages/setup/setup",
+    "pages/examine/examine",
+    "pages/address/address",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {},
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FF8666",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "接单",
+        "iconPath": "./static/tabbar/Receivingorders.png",
+        "selectedIconPath": "static/tabbar/Receivingorders-color.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "static/tabbar/order.png",
+        "selectedIconPath": "static/tabbar/order-color.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/main.png",
+        "selectedIconPath": "static/tabbar/main-color.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-7a94eb94 .uni-input-placeholder {
+  line-height: 70rpx !important;
+}
+.u-form-item.data-v-7a94eb94 {
+  padding: 40rpx 0;
+}
+uni-page-body.data-v-7a94eb94 {
+  height: 100%;
+}
+.app-body.data-v-7a94eb94 {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.app-content.data-v-7a94eb94 {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 124rpx);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.container.data-v-7a94eb94 {
+  width: 670rpx;
+  margin: 0 40rpx;
+  color: #202020;
+}
+.step-wrap.data-v-7a94eb94 {
+  padding-top: 112rpx;
+  padding-bottom: 70rpx;
+}
+.step-wrap .step-title.data-v-7a94eb94 {
+  text-align: center;
+  font-size: 48rpx;
+  font-weight: 600;
+}
+.personal-box.data-v-7a94eb94 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-left: 20rpx;
+}
+.personal-box .personal-title.data-v-7a94eb94 {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.personal-box .personal-title.data-v-7a94eb94:nth-child(2) {
+  margin-left: 128rpx;
+}
+.personal-subtitle.data-v-7a94eb94 {
+  font-size: 32rpx;
+  color: #999999;
+  margin-top: 12rpx;
+  margin-bottom: 40rpx;
+}
+.personal-upload.data-v-7a94eb94 {
+  margin-bottom: 50rpx;
+}
+.personal-upload-item.data-v-7a94eb94 {
+  position: relative;
+}
+.personal-upload-item .upload-bg.data-v-7a94eb94 {
+  width: 320rpx;
+  height: 206rpx;
+}
+.personal-upload-item .upload-postion.data-v-7a94eb94 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.personal-upload-item .upload-postion .upload-icon.data-v-7a94eb94 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.personal-form-item.data-v-7a94eb94 {
+  padding: 40rpx 0;
+  border-bottom: 2rpx solid #ededed;
+}
+.app-footer.data-v-7a94eb94 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.btn-box.data-v-7a94eb94 {
+  width: 100%;
+  height: 124rpx;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.16);
+}
+.btn-primary.data-v-7a94eb94 {
+  width: 670rpx;
+  height: 92rpx;
+  border: none;
+  color: #fff;
+  border-radius: 46rpx;
+  background: -webkit-linear-gradient(left, #FFBB9F 0%, #FF8666 100%);
+  background: linear-gradient(90deg, #FFBB9F 0%, #FF8666 100%);
+}
+

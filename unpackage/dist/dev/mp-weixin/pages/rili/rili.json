@@ -1,0 +1,6 @@
+{
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}
